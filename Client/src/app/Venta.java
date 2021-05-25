@@ -14,6 +14,6 @@ public class Venta {
         Float montoCondescuento = descuento.getDescuento(montoCompra);
         System.out.println("Monto de la compra = " + montoCompra);
         System.out.println(" Paga con tarjeta = " + tarjeta);
-        System.out.println("  Monto a pagar con descuento " + montoCondescuento);
+        System.out.println("  Monto a pagar con descuento = " + montoCondescuento);
     }
 }
