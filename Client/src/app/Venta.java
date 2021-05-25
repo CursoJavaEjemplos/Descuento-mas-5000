@@ -11,9 +11,9 @@ public class Venta {
         //Pedir por teclado si paga con tarjeta
         boolean tarjeta = false;
         descuento.setTarjeta(tarjeta);
-        Float montoCondescuento = descuento.getDescuento(montoCompra);
+        Float montoConDescuento = descuento.getDescuento(montoCompra);
         System.out.println("Monto de la compra = " + montoCompra);
         System.out.println(" Paga con tarjeta = " + tarjeta);
-        System.out.println("  Monto a pagar con descuento = " + montoCondescuento);
+        System.out.println("  Monto a pagar con descuento = " + montoConDescuento);
     }
 }
